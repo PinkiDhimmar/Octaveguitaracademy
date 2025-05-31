@@ -1,0 +1,24 @@
+<!-- student_dashboard.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Dashboard - Octave Guitar Class</title>
+  <link rel="stylesheet" href="/css/mystyle.css">
+</head>
+<body>
+  <header>
+    <h1>🎸 Welcome, <%= student.name %>!</h1>
+    <nav>
+      <a href="/student/courses">My Courses</a>
+      <a href="/student/assignments">Assignments</a>
+      <a href="/student/messages">Messages</a>
+      <a href="/logout">Logout</a>
+    </nav>
+  </header>
+
+  
+  <script src="/js/student.js"></script>
+</body>
+</html>

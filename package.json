@@ -18,8 +18,13 @@
   "homepage": "https://github.com/PinkiDhimmar/Octaveguitarclasses#readme",
   "description": "",
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "bootstrap-icons": "^1.13.1",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
-    "mysql": "^2.18.1"
+    "express-session": "^1.18.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.14.1"
   }
 }
